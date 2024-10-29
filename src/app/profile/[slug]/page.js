@@ -35,7 +35,7 @@ export default function Page({ params }) {
                                         </p>
                                     </div>
                                     <div className='hidden absolute w-1/5 h-[200px] bg-[#222428] rounded-xl text-white right-5 bottom-5 text-2xl md:flex justify-center items-center'>
-                                        Jai's reel.
+                                        {`Jai's reel.`}
                                     </div>
                                 </WobbleCard>
                             </motion.div>

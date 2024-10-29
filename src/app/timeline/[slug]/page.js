@@ -206,7 +206,7 @@ export default function page({ params }) {
                             >
                                 <WobbleCard containerClassName={'bg-[#15171c] rounded-3xl w-full h-full'} className='w-full bg-[#222428] h-full gap-3 flex justify-center items-center p-10 flex-col'>
                                     <p className={`text-3xl ${props.dateColor ? props.dateColor : `${props.bgColor} text-transparent bg-clip-text`}  font-semibold text-center`}>Launch Partners</p>
-                                    <p className='text-sm text-white'>Senze's route to market</p>
+                                    <p className='text-sm text-white'>{`Senze's route to market`}</p>
                                     <div className='w-full h-full flex justify-center flex-wrap gap-4 items-center'>
                                         <div className='rounded-full border-2 w-20 h-20'></div>
                                         <div className='rounded-full border-2 w-20 h-20'></div>
@@ -249,7 +249,7 @@ export default function page({ params }) {
                     </div>
                     <div className='w-full h-full '>
                         <div className='w-full h-full flex flex-col justify-center items-start gap-10'>
-                            <p className='text-start text-4xl text-white font-semibold w-3/4'>
+                            <p className='text-start text-4xl text-white font-semibold w-full p-4 md:p-0 md:w-3/4'>
                                 Get in touch with Senze.
                             </p>
                             <div className='flex h-[350px] justify-around items-center md:flex-nowrap flex-wrap gap-10'>
@@ -257,7 +257,7 @@ export default function page({ params }) {
                                     initial={{ opacity: 0, x: -100 }}
                                     whileInView={{ opacity: 1, x: 0 }}
                                     transition={{ duration: 1 }}
-                                    className='w-1/2 p-14 rounded-2xl h-full flex justify-center flex-col items-center gap-4 bg-[#222428]'>
+                                    className='w-full md:w-1/2 p-14 rounded-2xl h-full flex justify-center flex-col items-center gap-4 bg-[#222428]'>
                                     <p className='text-white text-xl text-center'>
                                         ArcLive V1 is now live.<br /> Click on the links below to be taken directly to the app & play stores.
                                     </p>
@@ -273,7 +273,7 @@ export default function page({ params }) {
                                     initial={{ opacity: 0, x: 100 }}
                                     whileInView={{ opacity: 1, x: 0 }}
                                     transition={{ duration: 1 }}
-                                    className='w-1/2 p-14 rounded-2xl h-full flex justify-center flex-col items-center gap-4 bg-[#222428]'>
+                                    className='w-full md:w-1/2 p-14 rounded-2xl h-full flex justify-center flex-col items-center gap-4 bg-[#222428]'>
                                     <p className='text-white text-xl text-center' >
                                         Request a demo of the consumer & enterprise applications today
                                     </p>
